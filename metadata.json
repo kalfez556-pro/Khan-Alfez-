@@ -1,0 +1,11 @@
+{
+  "name": "StudySmart",
+  "description": "Comprehensive academic and study management ecosystem for college engineering students and faculty with anti-proxy dynamic QR attendance, inline workstations, and gamified analytics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

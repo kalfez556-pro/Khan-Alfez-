@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="ss-bg" x1="0" y1="0" x2="48" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+  </defs>
+  <rect width="48" height="48" rx="12" fill="url(#ss-bg)" />
+  <!-- Minimalist Open Book -->
+  <path
+    d="M11 18.5C11 17.4 11.9 16.5 13 16.5H19.5C21.7 16.5 23.5 18.1 24 20.1C24.5 18.1 26.3 16.5 28.5 16.5H35C36.1 16.5 37 17.4 37 18.5V33C37 34.1 36.1 35 35 35H27.8C26.1 35 24.7 35.7 24 36.8C23.3 35.7 21.9 35 20.2 35H13C11.9 35 11 34.1 11 33V18.5Z"
+    fill="#FFFFFF"
+  />
+  <path d="M24 20V36.2" stroke="#2563EB" stroke-width="2" stroke-linecap="round" />
+  <!-- Smart Sparkle / Bookmark Star -->
+  <path
+    d="M24 7.5L25.6 11.4L29.5 13L25.6 14.6L24 18.5L22.4 14.6L18.5 13L22.4 11.4L24 7.5Z"
+    fill="#FBBF24"
+  />
+</svg>

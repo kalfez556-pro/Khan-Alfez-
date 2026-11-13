@@ -1,0 +1,43 @@
+Build "StudySmart" — A comprehensive academic and study management ecosystem for college engineering students and faculty with modern desktop-first card/box UI (Tailwind CSS, Plus Jakarta Sans, Lucide icons, Canvas-Confetti, Recharts).
+
+KEY MODULES & ARCHITECTURE:
+
+1. Dynamic QR Attendance Engine (Anti-Proxy Protection):
+   - Faculty can generate a time-limited dynamic QR code with a secret rotation token for specific divisions (A, B).
+   - Students scan the QR code via webcam/camera with ML Kit / CameraX simulation.
+   - Enforces strict anti-proxy division checks (students can only mark attendance for their assigned division).
+   - Live attendance logs and division percentage tracking.
+
+2. Course Assignments & Workstation Boxes:
+   - Zero full-screen modal popups/drawers: all forms operate in inline workstation boxes.
+   - Faculty can publish lab assignments (title, subject, division, deadline days, total marks).
+   - Students upload lab reports (.pdf) and benchmarks directly in an inline workstation box.
+   - Faculty review submissions, award numerical marks, and leave feedback.
+
+3. Study Notes & PDF Repository:
+   - 2-Column Master-Detail Box Architecture (Left: Chapter list with PDF badges; Right: Dedicated In-Page PDF Reader Station).
+   - Direct PDF upload/attachment for university lecture slides, handwritten scans, and exam formula sheets.
+   - In-page PDF reader with zoom controls (-/+/100%), offline download, replace PDF, and browser print export.
+   - Clean UI without tags or bloated markdown textareas.
+
+4. Gamified Quizzes & Weekly Mega Test:
+   - Daily 5-question adaptive quizzes (Easy, Medium, Hard) rewarding Gems.
+   - Weekly Mega Test (15 questions across DSA, OS, DBMS) with dynamic tier calculation.
+   - Multi-stage grand fireworks celebration powered by canvas-confetti on completing tests.
+   - Performance analytics visualized with Recharts area & bar charts (scores over time and gem accumulation).
+
+5. Pomodoro Focus Timer:
+   - Interactive 25/5 min study timer with ambient lofi/binaural audio synthesis.
+   - Daily study streak counter with streak freeze perk protection.
+
+6. Gem Rewards Store:
+   - Students spend earned gems on study perks (Streak Freeze, Priority Lab Feedback, Custom Badges).
+
+7. Multi-Perspective Role Switching:
+   - Instant header switcher between Faculty (Prof. Arvind Sharma, Dr. Meera Nambiar) and Students (Rahul Sharma Div A, Priya Patel Div B).
+
+8. Android Jetpack Compose Codebase Hub:
+   - In-page dedicated tab providing complete, production-ready Kotlin Jetpack Compose + CameraX + ML Kit starter code for Android Studio.
+
+9. Full-Stack Cloud Run Ready:
+   - Express server.js serving static Vite dist build with SPA fallback for Cloud Run deployments.
